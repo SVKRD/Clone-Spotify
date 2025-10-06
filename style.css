@@ -1,0 +1,158 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background: #121212;
+  color: white; 
+  margin: 0; 
+  padding: 0;
+  text-align: center; 
+  background-image: url("bg.jpeg");
+} 
+
+h1{
+  color: #1db954;
+  border-color: #1DB954;
+  align-items: center;
+  justify-content: center;
+  padding-left: 145px;
+}
+
+h1:hover{
+color: #1db954;
+cursor: pointer;
+}
+
+header { 
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px 30px;
+
+} 
+
+header img { 
+height: 40px;
+cursor: pointer;
+} 
+
+nav button {
+background-color: #1e1e1e;
+border-radius: 8px;
+border-color: #1db954;
+color: #1DB954;
+font-size: 22px; 
+margin: 0 10px; 
+cursor: pointer; 
+} 
+
+.cover { 
+margin: 20px auto;
+width: 550px; 
+height: 300px;
+border-radius: 15px; 
+overflow: hidden;
+box-shadow: 0 0 15px #1db954; 
+} 
+
+.cover img {
+width: 100%;
+height: 100%; 
+object-fit: cover;
+} 
+
+h2 { 
+margin: 15px 0 5px; 
+}
+
+p { 
+margin: 5px 0 20px; 
+color: #bbb;
+} 
+
+.controls { 
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 0;
+} 
+.controls button { 
+background: none; 
+border: none;
+  margin: 0 15px; 
+  cursor: pointer; 
+  font-size: 28px; 
+color: white; 
+} 
+.progress-container { 
+width: 80%;
+margin: 0 auto;
+background: #333; 
+border-radius: 5px; 
+cursor: pointer; 
+height: 8px; 
+position: relative; 
+} 
+
+.time-display { 
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ccc; 
+} 
+  .time-display span { 
+    margin: 0 5px;
+  }
+
+.progress { background: #1db954;
+height: 100%; 
+width: 0%;
+border-radius: 5px;
+} 
+
+.volume-container {
+  width: 80%;
+  margin: 10px auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#volume {
+  width: 70%;
+  cursor: pointer;
+}
+
+.song-list { 
+margin-top: 30px; 
+padding: 0 20px;
+padding-left: 500px;
+padding-right: 500px;
+}
+
+
+.song { 
+background: #1e1e1e;
+ margin: 10px 0; 
+ padding: 12px; 
+ border-radius: 8px; 
+ display: flex;
+justify-content: space-between; 
+align-items: center;
+} 
+
+
+
+button1 { 
+background: #1db954;
+border: none; 
+padding: 5px 10px;
+border-radius: 5px; 
+cursor: pointer;
+font-size: bold;
+} 
+
+.song button:hover { 
+background: #17a44a; 
+} 
+
+
+
